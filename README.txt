@@ -13,6 +13,15 @@ with a link-back to our page, e.g. "built using JTwitter", is a good way
 way to do this. Your own code can be licensed commercially however you like
 and you do not have to release the source code.
 
+## Building
+
+Ensure that you have maven installed. Run "mvn package" this will create
+a jar in the target folder.
+
+## Android UI helper
+
+A simple helper for authenticating on Android devices is provided in the android
+subdirectory. It has its own project file.
 
 ## liblocal: A dummy Android jar
 
